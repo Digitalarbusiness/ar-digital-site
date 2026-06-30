@@ -1,0 +1,21 @@
+AR DIGITAL — ARQUIVOS ATUALIZADOS
+
+Envie todos os arquivos desta pasta para a raiz do repositório/site.
+
+Incluídos:
+- index.html atualizado
+- politica-de-privacidade.html
+- robots.txt
+- sitemap.xml
+- favicon.ico, favicon-32.png e favicon-192.png
+- og-image.png
+- logo-ar-digital.png
+
+GOOGLE SEARCH CONSOLE
+1. Acesse o Google Search Console com a conta da empresa.
+2. Adicione a propriedade de domínio ardigitalbusiness.com.br.
+3. Faça a validação pelo registro DNS solicitado pelo Google.
+4. Envie o sitemap: https://ardigitalbusiness.com.br/sitemap.xml
+5. Use Inspeção de URL para solicitar a indexação de https://ardigitalbusiness.com.br/
+
+A validação da propriedade depende do acesso à conta Google e ao DNS do domínio.
