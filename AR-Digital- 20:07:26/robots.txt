@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ardigitalbusiness.com.br/sitemap.xml
