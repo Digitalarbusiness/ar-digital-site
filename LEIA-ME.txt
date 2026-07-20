@@ -8,8 +8,8 @@ AR DIGITAL — NOVA VERSÃO PARA GITHUB
 4. Depois, envie todo o conteúdo da pasta para a raiz do repositório GitHub.
 5. O Cloudflare Pages deverá publicar automaticamente após o commit.
 
-ATENÇÃO AO WHATSAPP
-O número do WhatsApp não estava disponível nos arquivos acessíveis. Antes da publicação, abra js/script.js e substitua INSERIR_NUMERO_AR_DIGITAL pelo número completo, somente com dígitos (ex.: 5551999999999).
+WHATSAPP CONFIGURADO
+O formulário está configurado para abrir uma conversa no número +55 51 99575-8811.
 
 ESTRUTURA
 index.html

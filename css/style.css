@@ -127,3 +127,84 @@
   .lead-concept{font-size:17px;line-height:1.72}
   .hero h1 .circ-e::before{top:-0.29em;font-size:.58em}
 }
+
+
+/* Ajuste fino — hero inicial (acento e enquadramento geral) */
+@media (min-width:1051px){
+  .hero{
+    min-height:100vh;
+    padding:118px 0 92px;
+    align-items:flex-start;
+  }
+  .hero-grid{
+    gap:48px;
+    align-items:start;
+  }
+  .hero-copy{
+    padding-top:18px;
+  }
+  .hero h1{
+    font-size:clamp(3.7rem,6.55vw,6.65rem);
+    line-height:.89;
+    margin-bottom:24px;
+    max-width:700px;
+  }
+  .lead-concept{
+    font-size:clamp(17px,1.18vw,19px);
+    line-height:1.68;
+    max-width:720px;
+  }
+  .actions{
+    margin:28px 0 34px;
+  }
+  .hero-meta{
+    max-width:690px;
+  }
+  .hero-meta div{
+    padding:18px 18px 0 0;
+  }
+  .system-visual{
+    height:520px;
+    margin-top:30px;
+  }
+  .orbit-a{width:352px;height:352px}
+  .orbit-b{width:225px;height:225px}
+  .card-main{width:198px;height:242px}
+  .card-google,.card-site{width:136px;height:112px}
+  .card-social,.card-whats{width:144px;height:114px}
+  .card-social{bottom:15%}
+  .card-whats{bottom:17%}
+  .channel-card{padding:15px}
+  .channel-card h2{font-size:30px;margin:23px 0 12px}
+  .channel-card h3{font-size:15px;margin:23px 0 4px}
+}
+
+/* Ajuste do circunflexo em “VOCÊ” para não invadir a linha superior */
+.hero h1 .circ-e::before{
+  top:-0.15em;
+  font-size:.44em;
+  transform:translateX(-50%) scaleX(1.02);
+}
+@media(max-width:700px){
+  .hero h1 .circ-e::before{
+    top:-0.17em;
+    font-size:.42em;
+  }
+}
+
+/* Proteção de carregamento: conteúdo visível mesmo se o JavaScript falhar */
+.reveal{
+  opacity:1;
+  transform:none;
+  filter:none;
+}
+.js-enabled .reveal{
+  opacity:0;
+  transform:translateY(25px);
+  filter:blur(5px);
+}
+.js-enabled .reveal.visible{
+  opacity:1;
+  transform:none;
+  filter:none;
+}
