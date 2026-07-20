@@ -1,21 +1,27 @@
-AR DIGITAL — ARQUIVOS ATUALIZADOS
+AR DIGITAL — NOVA VERSÃO PARA GITHUB
 
-Envie todos os arquivos desta pasta para a raiz do repositório/site.
+1. Este pacote foi criado para substituir os arquivos do site atual no repositório.
+2. Os arquivos oficiais de marca NÃO foram recriados nem alterados.
+3. Antes de publicar, copie do repositório atual para esta pasta exatamente estes arquivos:
+   assets/logo/ar-digital-logo.png
+   assets/logo/favicon.png
+4. Depois, envie todo o conteúdo da pasta para a raiz do repositório GitHub.
+5. O Cloudflare Pages deverá publicar automaticamente após o commit.
 
-Incluídos:
-- index.html atualizado
-- politica-de-privacidade.html
-- robots.txt
-- sitemap.xml
-- favicon.ico, favicon-32.png e favicon-192.png
-- og-image.png
-- logo-ar-digital.png
+ATENÇÃO AO WHATSAPP
+O número do WhatsApp não estava disponível nos arquivos acessíveis. Antes da publicação, abra js/script.js e substitua INSERIR_NUMERO_AR_DIGITAL pelo número completo, somente com dígitos (ex.: 5551999999999).
 
-GOOGLE SEARCH CONSOLE
-1. Acesse o Google Search Console com a conta da empresa.
-2. Adicione a propriedade de domínio ardigitalbusiness.com.br.
-3. Faça a validação pelo registro DNS solicitado pelo Google.
-4. Envie o sitemap: https://ardigitalbusiness.com.br/sitemap.xml
-5. Use Inspeção de URL para solicitar a indexação de https://ardigitalbusiness.com.br/
+ESTRUTURA
+index.html
+politica-de-privacidade.html
+css/style.css
+js/script.js
+robots.txt
+sitemap.xml
+assets/logo/ (manter os arquivos oficiais existentes)
 
-A validação da propriedade depende do acesso à conta Google e ao DNS do domínio.
+
+REVISÃO DE PALETA E LOGOS
+- Paleta AR Digital aplicada: azul-marinho, azul institucional, champagne e off-white.
+- Os arquivos assets/logo/ar-digital-logo.png e assets/logo/favicon.png estão incluídos.
+- O index.html pode ser aberto diretamente no computador; não depende do GitHub para mostrar o logo.
